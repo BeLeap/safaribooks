@@ -7,7 +7,7 @@ password = getpass()
 
 file = open("bookcode.txt", "r")
 for code in file:
-    print(code)
+    print("[INFO]", "Downloading", code)
     os.system('python3 safaribooks.py --cred' + ' "' +
               email + ':' + password + '" ' + code)
 
