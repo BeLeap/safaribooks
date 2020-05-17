@@ -14,3 +14,6 @@ Write all your book code to the bookcode.txt
 cd <path-to-this-repo>
 ./getbooks.py
 ```
+
+It will ask you to type your email and password.
+If you want not to, use arguments `--email` and `--password`.
