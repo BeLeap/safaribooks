@@ -12,5 +12,5 @@ Write all your book code to the bookcode.txt
 
 ```
 cd <path-to-this-repo>
-./main.py
+./getbooks.py
 ```
